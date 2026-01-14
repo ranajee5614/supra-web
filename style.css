@@ -22,6 +22,21 @@
   background: #b0000a;
 }
 
+.video-container {
+  padding: 60px 20px;
+  background: #000;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+  background: #000;
+}
+
+
 /* Hero */
 .hero {
   height: 90vh;
@@ -138,3 +153,4 @@ footer {
   .btn { padding: 10px 20px; font-size: 0.9em; }
   .video-container iframe { height: 250px; }
 }
+
